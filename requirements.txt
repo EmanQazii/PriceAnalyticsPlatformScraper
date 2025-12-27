@@ -1,0 +1,10 @@
+requests
+beautifulsoup4
+lxml
+fake-useragent
+pymongo
+python-dotenv
+schedule
+selenium
+webdriver-manager
+
