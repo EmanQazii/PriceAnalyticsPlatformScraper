@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 from typing import List, Dict, Optional
 
 class BaseScraper:
-    def __init__(self, backend_url: str = "http://localhost:5000/api/scraper/price"):
+    def __init__(self, backend_url: str = "https://priceanalyticsplatformbackend.onrender.com/api/scraper/price"):
         self.backend_url = backend_url
         self.ua = UserAgent()
         self.session = requests.Session()
